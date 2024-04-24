@@ -18,6 +18,11 @@ django-admin startproject config
 python manage.py runserver
 
 python manage.py migrate
+
+pip install mysqlclient
+pip install pika
+pip install django-mysql
+pip install django-cors-headers
 ```
 
 ## Frontend
