@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 .venv/
+houses-api/config/db.sqlite3

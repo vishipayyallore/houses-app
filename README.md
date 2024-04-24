@@ -15,6 +15,7 @@ pip install djangorestframework
 pip install flask
 
 django-admin startproject config
+python manage.py runserver
 ```
 
 ## Frontend
