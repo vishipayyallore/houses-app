@@ -23,6 +23,9 @@ pip install mysqlclient
 pip install pika
 pip install django-mysql
 pip install django-cors-headers
+
+pip freeze > .\requirements.txt
+pip install –r requirements.txt
 ```
 
 ## Frontend
