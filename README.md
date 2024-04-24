@@ -33,5 +33,5 @@ pip install –r requirements.txt
 > 1. To be done
 
 ```powershell
-npx create-react-app houses-web --template typescript
+npx create-react-app housesweb --template typescript
 ```
