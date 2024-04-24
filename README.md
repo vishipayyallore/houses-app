@@ -13,6 +13,8 @@ python -m venv .venv
 pip install django
 pip install djangorestframework
 pip install flask
+
+django-admin startproject config
 ```
 
 ## Frontend
