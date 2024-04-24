@@ -1,8 +1,8 @@
-version: "2.2"
+version: "3.1"
 services:
   backend:
-    image: educative1/python_django_flask:latest
-    command: "python3 manage.py runserver 0.0.0.0:8000"
+    image: vishipayyallore/housesapi:latest
+    command: "python manage.py runserver 0.0.0.0:8000"
     ports:
       - 8000:8000
     volumes:
