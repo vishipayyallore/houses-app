@@ -16,6 +16,8 @@ pip install flask
 
 django-admin startproject config
 python manage.py runserver
+
+python manage.py migrate
 ```
 
 ## Frontend
