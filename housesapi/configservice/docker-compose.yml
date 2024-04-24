@@ -1,9 +1,9 @@
 version: "3.1"
 services:
   backend:
-    image: vishipayyallore/housesapi:latest
+    image: vishipayyallore/configservice:latest
     command: "python manage.py runserver 0.0.0.0:8000"
     ports:
       - 8000:8000
     volumes:
-      - .:/housesapi
+      - .:/configservice

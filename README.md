@@ -27,7 +27,7 @@ pip install django-cors-headers
 pip freeze > .\requirements.txt
 pip install –r requirements.txt
 
-docker build --pull --rm -f "Dockerfile" -t housesapi:latest -t vishipayyallore/housesapi:latest .
+docker build --pull --rm -f "Dockerfile" -t configservice:latest -t vishipayyallore/configservice:latest .
 ```
 
 ## Frontend
