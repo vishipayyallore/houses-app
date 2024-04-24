@@ -21,3 +21,7 @@ python manage.py runserver
 ## Frontend
 
 > 1. To be done
+
+```powershell
+npx create-react-app houses-web --template typescript
+```
