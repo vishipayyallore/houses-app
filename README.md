@@ -10,7 +10,9 @@ I am learning to create Houses App using Python Django, and ReactJS
 python -m venv .venv
 .\.venv\Scripts\activate
 
-
+pip install django
+pip install djangorestframework
+pip install flask
 ```
 
 ## Frontend
