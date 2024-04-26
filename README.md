@@ -2,7 +2,7 @@
 
 I am learning to create Houses App using Python Django, and ReactJS
 
-## Backend
+## Backend - Config
 
 > 1. To be done
 
@@ -28,6 +28,14 @@ pip freeze > .\requirements.txt
 pip install –r requirements.txt
 
 docker build --pull --rm -f "Dockerfile" -t housesservices:latest -t vishipayyallore/housesservices:latest .
+```
+
+## Backend - Houses App
+
+```powershell
+docker-compose exec backend sh
+
+django-admin startapp houses
 ```
 
 ## Frontend
