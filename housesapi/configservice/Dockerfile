@@ -9,3 +9,6 @@ COPY . /configservice
 
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
+
+# Run database migrations
+CMD ["python", "manage.py", "migrate"]
