@@ -36,7 +36,13 @@ docker build --pull --rm -f "Dockerfile" -t housesservices:latest -t vishipayyal
 docker-compose exec backend sh
 
 django-admin startapp houses
+
+python manage.py makemigrations
+
+python manage.py migrate
 ```
+
+![Make Migrations](documentation/images/Make_Migrations.PNG)
 
 ## Frontend
 
