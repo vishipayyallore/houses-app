@@ -44,6 +44,8 @@ python manage.py migrate
 
 ![Make Migrations](documentation/images/Make_Migrations.PNG)
 
+![Create Super User](documentation/images/CreateSuperUser.PNG)
+
 ## Frontend
 
 > 1. To be done
